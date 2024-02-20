@@ -1,0 +1,3 @@
+Pankaj,200000
+Rahul,100000
+Angad,250000

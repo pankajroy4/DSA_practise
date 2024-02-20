@@ -1,0 +1,222 @@
+
+<!-- for comment in html: 
+  ctrl+ k+ u  or
+  ctrl + k + c
+  and for going back to directory use: ../  for 1 directory back
+                                       ../../  for going 2 directory back and so on.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beyond Fitness</title>
+    <meta name="description" 
+    content="The beyond fitness gym situated at laksmi chowk ,muzaffarpur provides you 
+    the best facilities and environment to achieve your goal.Trainers having years of experience in bodybuilding.Visit once!">
+   
+    <link rel="stylesheet" type= "text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="stylesheet" href="css/all.css">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+</head>
+<body> 
+   <header id="home">
+    <nav>
+      <a href="index.html"><img alt="logo" id="logo" src="images/logo.jpeg"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times-circle" aria-hidden="true" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#programs">programs</a></li>
+            <li><a href="#sch">Schedules</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#footer">contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+    <div class="brand">
+        <h1>BEYOND FITNESS:)</h1>
+        <P id="quoets">"THE MEANING OF LIFE IS NOT SIMPLY TO EXIST,<br>TO SURVIVE, BUT TO MOVE AHEAD, TO GO UP, TO CONQUER."
+            <br></P>
+        <p id="quoeter"> Arnold !</p>  
+        <div class="btn"><a href="#programs" class="button">know more</a><div>
+        
+    </div>
+   </header>
+   <section class="programs" id="programs">
+      <h1>programs we offer</h1>
+      <p>you will get variety of programs which includes cardio, strength training and powerlifting.  </p>
+      <div class="types-row">
+          <div class="type-column" id="column-one">
+             <h3>Cardio</h3>
+             <p>Cardio exercise uses the large muscles of your body in movement over a sustained period of time, keeping your heart rate to at least 50-percent of its maximum level.</p>
+          </div>
+          <div class="type-column" id="column-two">
+             <h3>Strength Training</h3>
+             <p>Resistance training (also called strength training or weight training) is the use of resistance to muscular contraction to build the strength, anaerobic endurance and size of skeletal muscles.</p>
+          </div>
+          <div class="type-column" id="column-three">
+             <h3>Power Lifting</h3>
+             <p>Powerlifting is a strength sport that consists of three attempts at maximal weight on three lifts: squat, bench press, and deadlift.</p>
+          </div> 
+    </div>
+   </section>
+   <section class="shedules" id="sch">
+    <h3>Why Beyond  <i class="fas fa-heartbeat"></i> </h3>
+    
+    <div class="shedules-row">
+        <div class="shedules-column" id="col-1">
+           
+          
+            <h3>Features</h3>
+             <ul>
+               <li><i class="fa fa-bolt"></i> Experiened and educated trainers.</li>
+               <li><i class="fa fa-bolt"></i> Stunning imported machines.</li>
+               <li><i class="fa fa-bolt"></i> Positive & clean environment.</li>
+               
+               <li><i class="fa fa-bolt"></i> Personal guidence.</li>
+               <li><i class="fa fa-bolt"></i> Supreme location.</li>
+               <li><i class="fa fa-bolt"></i> Free parking available.</li>
+               <li>& many more.....</li>
+             </ul>
+           
+           <!--<i class="fa fa-bolt"></i>-->
+           
+        </div>
+        <div class="shedules-column" id="col-2">
+          
+          
+            <h3>Schedule</h3>
+            <ul>
+              <li><i class="fa fa-bolt"></i> Opens Monday to Saturday.</li>
+              
+              <li><i class="fa fa-bolt"></i> Separate timing for Boys and Girls.</li>
+              <li><i class="fa fa-bolt"></i> Female trainers for Girls.</li>
+              <li><i class="fa fa-bolt"></i> Timing :</li>
+              <li><i class="fa fa-bolt"></i> For Boys
+                 <ul>
+                   <li>5:00 A.M to 9:00 A.M and</li>
+                   <li>3:00 P.M to 10:00 P.M</li>
+
+                 </ul>
+               <li><i class="fa fa-bolt"></i> For Girls
+                 <ul>
+                   <li>9:00 A.M to 12:00 P.M</li>
+                 </ul>
+               </li>  
+              </li>
+            </ul>
+          
+        </div>
+        
+    </div>
+   </section>
+   <section class="gallery" id="gallery">
+    <h3>Gallery  <i class="fas fa-image"></i> </h3>
+    <div class="full-size-gallery " id="largeImgContainer">
+        <img src="images/g1.jpg" alt="" id="largeImg">
+        <span onclick="closelargeImg()">X</span>
+    </div>
+    <div class="gallery-img">
+        <img src="images/g1.jpg" alt="" onclick="openlargeImg(this.src)">
+        <img src="images/g2.jpg" alt="" onclick="openlargeImg(this.src)">
+        <img src="images/g3.jpg" alt="" onclick="openlargeImg(this.src)">
+        <img src="images/g4.jpg" alt="" onclick="openlargeImg(this.src)">
+        <img src="images/g5.jpg" alt=" "onclick="openlargeImg(this.src)">
+        <img src="images/g6.jpg" alt="" onclick="openlargeImg(this.src)">
+        <img src="images/g7.jpg" alt="" onclick="openlargeImg(this.src)">
+        <img src="images/g8.jpg" alt="" onclick="openlargeImg(this.src)">
+        <img src="images/g9.jpg" alt="" onclick="openlargeImg(this.src)">
+    </div>
+   </section>
+  
+   <footer id="footer">
+     <div class="f-container">
+       <div class="aboutus">
+         <h2>About Us</h2>
+         <p>THE BEYOND FITNESS GYM established in 2015 offers you the BEST.<br>Superb stunning imported machines,<br> for proper forms of each and every workout.<br>Go ahead, Join the best in your locality "THE BEYOND FITNESS".</p>
+         <ul class="social-list">
+           <li><a href="https://m.facebook.com/The-Beyond-Fitness-Gym-100359744802393" target="_blank"><i class="fab fa-facebook"></i></a></li>
+           <li><a href=""><i class="fab fa-twitter"></i></a></li>
+           <li><a href="https://instagram.com/sauravsonu67?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a></li>
+           <li><a href=""><i class="fab fa-youtube"></i></a></li>
+         </ul>
+       </div>
+       <div class="contact">
+         <h2>Contact Info</h2>
+         <ul class="info">
+           <li>
+           <span>  <i class="fas fa-map-marker-alt"></i> </span>
+           <span>2nd Floor ,Brij bihari lane,<br> Lakshmi Chowk,<br> Muzaffarpur, Bihar 842003<br>
+            </span>
+            </li>  
+            <li>
+              <span><i class="fas fa-phone-alt"></i> </span>
+              <p><a href="tel:+91 6207354743">+91 6207354743</a><br>
+                <a href="tel:+91 9931703154">+91 9931703154</a></p>
+               </li>  
+               <li>
+                <span><i class="fas fa-envelope"></i> </span>
+                <p><a href="mailto:sauravsonu67@gmail.com?subject = hello,greeting from beyond fitness">sauravsonu67@gmail.com</a></p>
+                 </li>  
+         </ul>
+      </div> 
+      <div class="map">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.8452141507296!2d85.36313621483515!3d26.136589383468024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed11fc348d1205%3A0x4f37cc5333b0911!2sThe%20Beyond%20Fitness!5e0!3m2!1sen!2sin!4v1628452357769!5m2!1sen!2sin" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+     </div>
+     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+   </footer>
+   <div class="copyright">
+     <div>
+       <p>Copyright @ 2021 The Beyond Fitness Gym. All Rights Reserved</p>
+     </div>
+   </div>
+  
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       var largeImgContainer = document.getElementById("largeImgContainer");
+       var largeImg = document.getElementById("largeImg");
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+       function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+       function openlargeImg(accept){
+           largeImgContainer.style.display= "flex";
+           largeImg.src =accept;
+       }
+       function closelargeImg(){
+           largeImgContainer.style.display= "none";
+           
+       }
+         
+      //Get the button:
+      mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+</script>
+</body>
+</html>
